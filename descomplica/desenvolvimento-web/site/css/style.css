@@ -1,0 +1,87 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header {
+    background-color: #f4511e;
+    
+}
+header p {
+    color: #e9e9e9;
+    text-align: center;
+}
+#pacotes {
+    display: inline-block;
+    text-align: center;
+}
+#pacotes div figure, #pacotes div video {
+    width: 30%;
+    height: 30%;
+}
+
+figure .gramado, figure .santa-catarina , figure .recife {
+    width: 50%;
+    height: 50%;
+}
+
+section,footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 63px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+nav{
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 60px;
+    background-color: #f03f3f;
+    padding-right: 40px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+table{
+    width: 100%;
+}
+
+table th {
+    background-color: #f4511e;
+    color: white;
+}
+
+table tr:nth-child(even){
+    background-color: #e9e9e9;
+}
+table tr:nth-child(odd){
+    background-color: #bdbdbd;
+}
+
