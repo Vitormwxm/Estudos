@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cabecalho {
+    background-color: #2c2c2c;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border-bottom: 4px solid orange;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
+
+
+main {
+    
+    width: 50%;
+    color: black;
+    margin: auto auto;
+    box-sizing: border-box;
+}
+
+main p {
+    padding: 0;
+    margin: 16px 0 16px 0;
+}
+
+main a img{
+    width: 20px;
+}
+
+main div{
+   width: 70%;;
+   margin: auto auto;
+   
+}
+
+main div img {
+    width: 500px;
+    padding: 0px;
+    text-align: left;
+}
+
+main div p {
+    text-align: justify;
+    margin-top: 16px;
+    padding: 0;
+  
+}
+
+main div h2 {
+    text-align: left;
+}
+
+footer{
+    background-color: #2c2c2c;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+}
