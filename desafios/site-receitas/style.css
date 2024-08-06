@@ -40,13 +40,15 @@ figure {
     max-width: 666px;
     margin: auto;
     padding: 5%;
+    border-radius: 10px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .ingredientes:hover{
     transform: scale(1.05);
-    border: 3px solid #d0d0d0;
-    border-radius: 10px;
+    cursor: url(img/icons8-carrinho-de-compras-30.png), auto;
+    box-shadow: 8px 8px 15px 12px rgb(205, 205, 205, 0.25);
+    
 }
 .subtitle{
     color: #ffa500;
