@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    top: 0;
+}
+.header {
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/pexels-pixabay-416778\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.logo {
+    width: 200px;
+}
+.efeito{
+    position: absolute;
+}
+
