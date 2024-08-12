@@ -10,22 +10,48 @@
     <header class="header">
        
         <div class="banner">
-        
-               
                <img class="logo" src="img/logo-top-hift-png.png" alt="">
-            
-           
        </div>
       
     </header>
 
     <main class="main">
         <section class="cadastro">
-            <h1>SIM! QUERO FAZER O TESTE!</h1>
-            <p>Preencha o formulário</p>
-            <form  method="GET" action="">
-                <input type="text">
-                <input type="email">
+            <section class="cadastro-frases">
+                <h1 class="cadastro-titulo">SIM! <span>QUERO</span> FAZER O TESTE!</h1>
+                <p class="cadastro-subtitulo">Preencha o formulário</p>
+            </section>
+            
+            <form  class="formulario-aula" method="GET" action="">
+                <fieldset class="camposDePreenchimento">
+                    <p>Nome</p>
+                    <input class="camposDePreenchimento-item" type="text" placeholder="Nome">
+                    <p>Email</p>
+                    <input class="camposDePreenchimento-item" type="email" placeholder="Email">
+
+                    <select name="estados" id="">
+                        <option value="">selecione</option>
+                        <option value="PE">Pernambuco</option>
+                    </select>
+                </fieldset>
+                
+
+                <fieldset class="objetivos">
+                    <legend class="objetivo-titulo">Qual o seu Objetivo?</legend>
+                    <label for="">
+                        <input type="radio" name="MassaMuscular" value="massa-muscular"> ganhar massa muscular
+                    </label>
+                    <label for="">
+                        <br><input type="radio" name="perderPeso" value="perder-peso"> Perder peso
+                    </label>
+                    <label for="">
+                        <br><input type="radio" name="Saude" value="saude"> Saúde no Geral
+                    </label>
+                </fieldset>
+                <div class="button">
+                    <button class="button-aula"><a href="">AULA EXPERIMENTAL</a></button>
+                </div>
+                
             </form>
         </section>
     </main>

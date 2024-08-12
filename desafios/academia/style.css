@@ -1,4 +1,4 @@
-body {
+body, p , h1{
     margin: 0;
     top: 0;
 }
@@ -22,4 +22,67 @@ body {
 .efeito{
     position: absolute;
 }
+.formulario-aula{
+    justify-content: flex-start;
+}
 
+.cadastro {
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cadastro-frases {
+    background-color: #262626;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    color: white;
+}
+
+.cadastro-titulo span {
+    color: yellow;
+}
+
+.cadastro-subtitulo {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.camposDePreenchimento{
+    border: none;
+    padding: 10px;
+}
+
+.camposDePreenchimento-item {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.objetivos {
+    border: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.button-aula {
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-aula a {
+    text-decoration: none;
+    color: white;
+   
+}
