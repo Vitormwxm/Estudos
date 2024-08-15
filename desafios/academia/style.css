@@ -28,7 +28,7 @@ body, p , h1{
 
 .cadastro {
     position: absolute;
-    left: 80%;
+    left: 75%;
     top: 25%;
     width: 200px;
     border: 1px solid black;
@@ -85,4 +85,43 @@ body, p , h1{
     text-decoration: none;
     color: white;
    
+}
+
+.conteudo-title{
+    margin: 5% 0% 0% 0%;
+    padding: 0;
+}
+
+.conteudo-subtitle{
+    margin-bottom: 5%;
+    padding: 0;
+}
+.conteudo {
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: 10%;
+}
+
+.conteudo-p {
+    margin-bottom: 5%;
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    height: 25vh;
+    box-sizing: border-box;
+}
+
+
+
+.footer-endereço {
+    margin-top: 5%;
+    padding-top: 3%;
+}
+
+.footer-logo {
+    width: 10%;
 }
