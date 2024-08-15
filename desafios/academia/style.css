@@ -1,6 +1,7 @@
 body, p , h1{
     margin: 0;
     top: 0;
+    font-family: "Open Sans", sans-serif;;
 }
 .header {
 
@@ -98,7 +99,7 @@ body, p , h1{
 }
 .conteudo {
     font-size: 20px;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: 10%;
 }
 
