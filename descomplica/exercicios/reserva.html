@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Reserva de viagem</title>
 </head>
 <body>
@@ -22,7 +25,131 @@
        
     </header>
 
-    <input type="text" name="nome" id="">
-    <input type="email" name="email" id="">
+    <main class="page">
+        <section class="packages">
+            <h1 class="packages-title"> coheça nossos pacotes</h1>
+            <p class="packages-subtitle">viagem para onde você quiser</p>
+
+            <section class="figures">
+                <figure class="figure">
+                    <img class="figure-EUA" src="img/new-york-city-manhattan-statue-liberty 1.png" alt="">
+                    <figcaption>Estados Unidos</figcaption>
+                </figure>
+    
+                <figure class="figure">
+                    <img class="figure-paris"src="img/torre-eiffel-em-paris-com-cores-lindas-no-outono 2.png" alt="">
+                    <figcaption>França</figcaption>
+                </figure>
+    
+                <figure class="figure">
+                    <img class="figure-italia"src="img/beautiful-view-colosseum-rome-italy 1.png" alt="">
+                    <figcaption>Italia</figcaption>
+                </figure>
+            </section>
+           
+        </section>
+
+        <section class="tax-services">
+            <h2 class="tax-services-title">TAXAS E SERVIÇOS</h2>
+            <p class="tax-services-subtitle">Veja Nossas Taxas e serviços</p>
+            
+            <table class="tax-services-table">
+                <caption class="tax-services-table-description">Descrição dos serviços e seus respectivos valores</caption>
+                    <thead class="tax-services-table-head">
+                        <tr class="tax-services-table-head-row">
+                            <th class="tax-services-table-head-item">serviços</th>
+                            <th class="tax-services-table-head-item">valor</th>
+                        </tr>
+                    </thead>
+                <tbody class="tax-services-table-body">
+                        <tr class="tax-services-table-body-row">
+                            <td class="tax-services-table-data-item">reserva de hotel</td>
+                            <td class="tax-services-table-data-item-info">500R$</td>
+                        </tr>
+                        <tr class="tax-services-table-body-row">
+                            <td class="tax-services-table-data-item">compra de passagens</td>
+                            <td class="tax-services-table-data-item">100R$</td>
+                        </tr>
+                        <tr class="tax-services-table-body-row">
+                            <td class="tax-services-table-data-item">aluguel de carros</td>
+                            <td class="tax-services-table-data-item">50R$</td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="contact">
+            <h2 class="contact-title">Contatos</h2>
+            <form class="contact-form" action="">
+                    <label class="contact-label" for="">NOME</label>
+                    <input class="contact-input" type="text" required placeholder="Nome">
+
+                    <label class="contact-label" for="">EMAIL</label>
+                    <input class="contact-input" type="email" required placeholder="Email">
+
+                    <label class="contact-label dataIda" for="">data ida</label>
+                    <input class="contact-input dataIda" type="date" required placeholder="dateIda">
+
+                    <label class="contact-label dataVolta" for="">data volta</label>
+                    <input class="contact-input dataVolta" type="date" required placeholder="dateVolta">
+
+                    <label class="contact-label" for="">Quantidade</label>
+                    <input class="contact-input pessoas" type="number" required placeholder="pessoas">
+                
+                    <fieldset class="form-service">
+                        <legend class="form-service-title">Quais serviços deseja contratar?</legend>
+                        <label class="form-service-label" for="">
+                            <input type="checkbox">Compra de passagens
+                        </label>
+                        <label class="form-service-label" for="">
+                            <input type="checkbox">Aluguel de Carros
+                        </label>
+                        <label class="form-service-label" for="">
+                            <input type="checkbox">Reserva de Hotel
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="form-pay">
+                        <legend class="form-pay-title">Formas de pagamento</legend>
+                        <label class="form-pay-label" for="">
+                            <input class="form-pay-input" type="radio" name="formaPagamento" value="debito"> debito
+                        </label>
+
+                        <label class="form-pay-label" for="">
+                            <input class="form-pay-input" type="radio" name="formaPagamento" value="pix"> pix
+                        </label>
+
+                        <label class="form-pay-label" for="">
+                            <input class="form-pay-input" type="radio" name="formaPagamento" value="credito"> credito
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="form-prazo-pagamento">
+                        <legend class="form-prazo-pagamento-title">Escolha o prazo de pagamento</legend>
+                        <select name="prazoPagamento" id="">
+                            <option value="aVista" selected>À vista</option>
+                            <option value="1x">1x sem Juros</option>
+                            <option value="2x">2x sem Juros</option>
+                            <option value="3x">3x sem Juros</option>
+                            <option value="4x">4x sem Juros</option>
+                            <option value="5x">5x sem Juros</option>
+                            <option value="6x">6x sem Juros</option>
+                            <option value="7x">7x sem Juros</option>
+                            <option value="8x">8x sem Juros</option>
+                            <option value="9x">9x sem Juros</option>
+                            <option value="10x">10x sem Juros</option>
+                        </select>
+                    </fieldset>
+                    <label class="coment" for=""> comentario</label>
+                    <textarea class="textarea-comment" name="" id="" rows="5"></textarea>
+                    <button class="button-form">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        desenvolvido por Vitor
+    </footer>
+   
 </body>
 </html>
