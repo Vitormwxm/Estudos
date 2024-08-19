@@ -236,13 +236,6 @@ legend{
     flex-direction: column;
 }
 
-.footer {
-    color: white;
-    background-color: #f4511e;
-    text-align: center;
-    padding: 10px;
-}
-
 .textarea-comment{
     width: 30%;
     margin: 10px 0 10px 0;
@@ -255,4 +248,12 @@ legend{
     border: 1px solid black;
     margin-bottom: 10px;
     color: white;
+}
+
+.footer {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: #f4511e;
+    text-align: center;
+    padding: 10px;
 }
