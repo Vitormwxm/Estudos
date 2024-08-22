@@ -1,0 +1,10 @@
+var date = new Date()
+
+date.setFullYear(2002)
+date.setMonth(9)
+date.setDate(27)
+date.setHours(20)
+date.setSeconds(54)
+date.setMinutes(50)
+date.getMilliseconds(1)
+console.log(date)
