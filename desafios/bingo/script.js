@@ -1,5 +1,4 @@
 let btn = document.getElementById("buttonRadom");
-
 btn.addEventListener("click", numberRadom);
 
 function numberRadom(  ) {
