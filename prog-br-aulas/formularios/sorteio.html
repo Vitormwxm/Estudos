@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <script>
+        let pessoas = ["vitor", "Lucas" , "Samuel"]
+
+
+        function sortear(){
+            let people = pessoas.length
+            let numeroPessoa = Math.floor(Math.random() * people)
+            document.getElementById("sorteia").innerHTML = pessoas[numeroPessoa] 
+
+        }
+    </script>
+<body>
+    <h1 id="sorteia"> 0 : 0</h1>
+    <button onclick="sortear()"> sortear</button>
+</body>
+</html>
