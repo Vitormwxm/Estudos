@@ -1,3 +1,5 @@
+let btniniciar = document.getElementById("iniciar")
+
 var numero = 0;
 var minuto = 0;
 var horas = 0;
@@ -20,11 +22,25 @@ function temporizador(){
     }  
 }
 
-function iniciar () {
+btniniciar.addEventListener("click", iniciar)
+
+function iniciar() {
+  
+
     interval = setInterval(temporizador, 1000)
     let btnContinuar = document.getElementById("iniciar")
     btnContinuar.textContent = "iniciar"
+
+    
+    btniniciar.removeEventListener("click", iniciar);
+   
 }
+
+function reiniciarEvento() {
+    btniniciar.addEventListener("click", iniciar);
+}
+
+
 
 function parar () {
     clearInterval(interval)
