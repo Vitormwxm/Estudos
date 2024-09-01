@@ -10,6 +10,10 @@ function numerosImpares(valor){
     return valor % 2 == 1
 }
 
+let numerosMairesCinco = numeros.filter((mair5) => {
+    return mair5> 5
+})
 
 console.log("numeros Pares: " + numerosPares)
 console.log("numeros impares: " + numerosImpar)
+console.log("maiores do que 5: " + numerosMairesCinco)
