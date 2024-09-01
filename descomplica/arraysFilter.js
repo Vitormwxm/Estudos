@@ -4,9 +4,12 @@
 var numeros = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
 
 let numerosPares = numeros.filter(pares => pares % 2 == 0)
-let numerosImpares = numeros.filter(impares => impares % 2 == 1)
-let numerosMairesCinco = numeros.filter(maiores5 => maiores5 > 5)
+let numerosImpar = numeros.filter(numerosImpares)
+
+function numerosImpares(valor){
+    return valor % 2 == 1
+}
+
 
 console.log("numeros Pares: " + numerosPares)
-console.log("numeros impares: " + numerosImpares)
-console.log("maiores do que 5: " + numerosMairesCinco)
+console.log("numeros impares: " + numerosImpar)
