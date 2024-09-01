@@ -17,3 +17,14 @@ let numerosMairesCinco = numeros.filter((mair5) => {
 console.log("numeros Pares: " + numerosPares)
 console.log("numeros impares: " + numerosImpar)
 console.log("maiores do que 5: " + numerosMairesCinco)
+
+
+let produtos = [
+    {id:"1" , produto:"MotoG", categoria:"Eletronico"},
+    {id:"2" , produto:"Samsung Galaxy", categoria:"Eletronico"},
+    {id:"3" , produto:"Fogao", categoria:"Eletrodomestico"}
+]
+
+let produto = produtos.filter(valor=>  valor.categoria == "Eletronico" )
+
+console.log(produto)
