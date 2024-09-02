@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 640px;
+}
+
+.controls {
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    left: 50px;
+}
+
+.btn {
+   
+    width: 50px;
+   
+}
