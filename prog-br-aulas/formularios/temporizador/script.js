@@ -23,10 +23,14 @@ function temporizador(){
 }
 
 btniniciar.addEventListener("click", iniciar)
+let interval
 
 function iniciar() {
-  
+    clearInterval(interval)
 
+    if(btnIniciar == "continuar") [
+        btnContinuar.textContent = "Iniciar"
+    ]
     interval = setInterval(temporizador, 1000)
     let btnContinuar = document.getElementById("iniciar")
     btnContinuar.textContent = "iniciar"
@@ -49,7 +53,6 @@ function parar () {
 }
 
 function resetar (){
-    clearInterval(interval)
     numero = 0;
     minuto = 0;
     hours = 0;
